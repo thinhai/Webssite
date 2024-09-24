@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap');
+
+
+.red{
+    font-family: "Playwrite NL", cursive;
+    overflow: hidden;
+    color: rgba(19, 16, 19, 0.232);
+    animation: typing 20s steps(100,end) infinite;
+    
+}
+.blue{
+    display: flex;
+}
+@keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
